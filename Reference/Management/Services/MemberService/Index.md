@@ -27,7 +27,7 @@ using Umbraco.Core.Services;
 
 ### Services property
 
-If you wish to use use the member service in a class that inherits from one of the Umbraco base classes (eg. `SurfaceController`, `UmbracoApiController` or `UmbracoAuthorizedApiController`), you can access the member service through a local `Services` property:
+If you wish to use the member service in a class that inherits from one of the Umbraco base classes (eg. `SurfaceController`, `UmbracoApiController` or `UmbracoAuthorizedApiController`), you can access the member service through a local `Services` property:
 
 ```csharp
 IMemberService memberService = Services.MemberService;
